@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".creacioncuenta">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/creacionCuenta"
+            android:layout_gravity="center"
+            android:padding="28dp"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Nombre"
+            android:textSize="10dp"
+            android:inputType="text"/>
+
+        <EditText
+            android:id="@+id/Nombre"
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Apellido Paterno"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/AP"
+            android:layout_width="344dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Apellido Materno"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/AM"
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Telefono"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/telefono"
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="number" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Direccion"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/Direccion"
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Fecha de nacimiento"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="datetime|date"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="437dp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Contraseña"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/contraseña"
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Confirmar contraseña"
+            android:textSize="10dp"/>
+
+        <EditText
+            android:id="@+id/contraseñaRepetir"
+            android:layout_width="343dp"
+            android:layout_height="40dp"
+            android:ems="10"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="188dp"
+            android:layout_height="56dp"
+            android:text="CONTINUAR"
+            tools:layout_editor_absoluteX="83dp"
+            tools:layout_editor_absoluteY="255dp"
+            android:layout_gravity="center"
+            android:onClick="metodoP"/>
+
+    </LinearLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>

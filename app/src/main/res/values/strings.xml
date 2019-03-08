@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">Uyoa\'S Arte Floral</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Correo electronico</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="btnIniciaSesion">Iniciar Sesion</string>
+    <string name="btnCreaCuenta">Crear Cuenta</string>
+
+    <string name="error_invalid_email">La direccion de correo electronico es invalida</string>
+    <string name="error_invalid_password">La contraseña es demasiada corta</string>
+    <string name="error_incorrect_password">La contraseña es incorrecta</string>
+
+    <string name="error_field_required">Este campo es requerido</string>
+    <string name="error_field_required1">Este campo es requerido</string>
+
+
+    <string name="permission_rationale">"Los permisos han sido denegados para este usuario, contacte con el administrador"</string>
+    <string name="title_activity_menu">Menu</string>
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Floreria Uyoas Arte Floral</string>
+    <string name="nav_header_subtitle">"Deja que las flores hablen por ti..."</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="casulaes">Casuales</string>
+    <string name="paquete">Paquete</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_casuales">Casuales</string>
+
+    <string name="bienvenido">Bienvenido a Uyoas Arte Floral</string>
+    <string name="creacionCuenta">Creacion Cuenta</string>
+    <string name="meotodo">Metodo de pago</string>
+</resources>
